@@ -131,10 +131,10 @@ footer:
   copyright: '&copy; 2019 • <a href="">Francis</a>'
 
   # Set to false to hide Hexo link.
-  # powered: false
+  powered: false
 
   # Set to false to hide theme link.
-  # theme: false
+  theme: false
 
   # Custom text.
   custom: 新ICP备16001819号
