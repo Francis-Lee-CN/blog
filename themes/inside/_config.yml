@@ -149,7 +149,7 @@ footer:
 # Page
 page:
   # Display Table of content, default to `true`
-  toc: false
+  # toc: true
 
   # Display reward, default to `false`
   reward: true
@@ -161,11 +161,9 @@ page:
 # Post
 post:
   per_page: 10
-
-  # The following settings are the same as the page
-  # toc: false
-  # reward: true
-  # copyright: true
+  toc: true
+  reward: true
+  copyright: true
 
 # Archive
 archive:
