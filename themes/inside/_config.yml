@@ -291,12 +291,12 @@ copyright:
 # Built-in support Disqus (https://disqus.com) and LiveRe (https://livere.com),
 # for other comment system, see plugins
 comments:
-  # disqus:
-  #   shortname: disqus_shortname
-  #   # Or you can set disqus script URL directly
-  #   script: //disqus_shortname.disqus.com/embed.js
-  #   # Autoload, default to `true`, set to `false` to display a button
-  #   autoload: false
+  disqus:
+    shortname: Francis's blog
+    # Or you can set disqus script URL directly
+    script: //francis-blog-2.disqus.com/embed.js
+    # Autoload, default to `true`, set to `false` to display a button
+    autoload: true
 
   # livere:
   #   uid: livere_uid
@@ -441,3 +441,21 @@ pwa:
 #         }
 #     # Or a path relative to theme folder
 #     code: snippets/mycss.css
+# plugins:
+#   - //cdn1.lncld.net/static/js/3.0.4/av-min.js
+#   - //unpkg.com/valine/dist/Valine.min.js
+#   - position: comments
+#     template: |
+#       <div id="vcomment"></div>
+#       <script>
+#         new Valine({
+#           el: '#vcomment',
+#           avatar: '',
+#           meta: ['nick'],
+#           appId: 'iJRTuj8rIAGYMFWqkBETLylN-gzGzoHsz',
+#           appKey: 'jQYSyoswhpdCCLaiVFM4LluA',
+#           path: 'location.pathname',
+#           serverURLs: 'http[s]://leancloud.lixintong.me',
+#           placeholder: '和谐、自由、平等、公正'
+#         })
+#       </script>
